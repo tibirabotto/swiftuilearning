@@ -19,6 +19,7 @@ struct ScrollViewReaderBootcamp: View {
                 .border(Color.gray)
                 .padding(.horizontal)
                 .keyboardType(.numberPad)
+                .multilineTextAlignment(.center)
             
             Button("SCROLL NOW") {
                 withAnimation(.spring()) {

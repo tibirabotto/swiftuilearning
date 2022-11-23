@@ -11,6 +11,8 @@
 		7AABA1B7292D1F71001CECE4 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA1B6292D1F71001CECE4 /* GeometryReaderBootcamp.swift */; };
 		7AABA1B9292D23F6001CECE4 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA1B8292D23F6001CECE4 /* MultipleSheetsBootcamp.swift */; };
 		7AABA1BB292D43FE001CECE4 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA1BA292D43FE001CECE4 /* MaskBootcamp.swift */; };
+		7ACE54E5292E6D68009502A8 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE54E4292E6D68009502A8 /* SoundsBootcamp.swift */; };
+		7ACE54EA292E70C6009502A8 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE54E9292E70C6009502A8 /* tada.mp3 */; };
 		7ADCA256292A72B700CBE62B /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCA255292A72B700CBE62B /* SwiftUILearningApp.swift */; };
 		7ADCA258292A72B700CBE62B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCA257292A72B700CBE62B /* ContentView.swift */; };
 		7ADCA25A292A72B900CBE62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCA259292A72B900CBE62B /* Assets.xcassets */; };
@@ -27,6 +29,9 @@
 		7AABA1B6292D1F71001CECE4 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		7AABA1B8292D23F6001CECE4 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		7AABA1BA292D43FE001CECE4 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		7ACE54E4292E6D68009502A8 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		7ACE54E9292E70C6009502A8 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tada.mp3; path = "../../../../../../Downloads/tada-sound/tada.mp3"; sourceTree = "<group>"; };
+		7ACE54EB292E70D8009502A8 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = badum.mp3; path = ../../../../../../Downloads/badum.mp3; sourceTree = "<group>"; };
 		7ADCA252292A72B700CBE62B /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADCA255292A72B700CBE62B /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		7ADCA257292A72B700CBE62B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7ACE54E6292E7016009502A8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE54EB292E70D8009502A8 /* badum.mp3 */,
+				7ACE54E9292E70C6009502A8 /* tada.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		7ADCA249292A72B700CBE62B = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +83,7 @@
 		7ADCA254292A72B700CBE62B /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				7ACE54E6292E7016009502A8 /* Sounds */,
 				7ADCA26B292AAB0800CBE62B /* DragGestureBootcamp2.swift */,
 				7ADCA263292A72D900CBE62B /* LongPressGesture.swift */,
 				7ADCA255292A72B700CBE62B /* SwiftUILearningApp.swift */,
@@ -82,6 +97,7 @@
 				7AABA1B6292D1F71001CECE4 /* GeometryReaderBootcamp.swift */,
 				7AABA1B8292D23F6001CECE4 /* MultipleSheetsBootcamp.swift */,
 				7AABA1BA292D43FE001CECE4 /* MaskBootcamp.swift */,
+				7ACE54E4292E6D68009502A8 /* SoundsBootcamp.swift */,
 			);
 			path = SwiftUILearning;
 			sourceTree = "<group>";
@@ -154,6 +170,7 @@
 			files = (
 				7ADCA25D292A72B900CBE62B /* Preview Assets.xcassets in Resources */,
 				7ADCA25A292A72B900CBE62B /* Assets.xcassets in Resources */,
+				7ACE54EA292E70C6009502A8 /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACE54E5292E6D68009502A8 /* SoundsBootcamp.swift in Sources */,
 				7ADCA26C292AAB0800CBE62B /* DragGestureBootcamp2.swift in Sources */,
 				7AABA1BB292D43FE001CECE4 /* MaskBootcamp.swift in Sources */,
 				7ADCA26A292AA65100CBE62B /* DragGestureBootcamp.swift in Sources */,

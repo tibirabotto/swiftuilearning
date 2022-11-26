@@ -40,7 +40,7 @@ struct SoundsBootcamp: View {
     var body: some View {
         VStack(spacing: 40) {
             Button("PLAY SOUND") {
-                SoundManager.instance.playSound(sound: .tada)
+                SoundManager.instance.playSound(sound: .badum)
             }
             Button("PLAY SOUND 2") {
                 SoundManager.instance.playSound(sound: .badum)
